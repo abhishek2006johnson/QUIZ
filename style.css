@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(135deg, #f8f9fa, #e0f7fa);
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1 {
+  background: linear-gradient(90deg, #6f42c1, #00bcd4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.card {
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.option-btn {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.option-btn:hover {
+  transform: scale(1.03);
+}
+
+.option-btn.correct {
+  background-color: #28a745 !important;
+  color: white !important;
+}
+
+.option-btn.wrong {
+  background-color: #dc3545 !important;
+  color: white !important;
+}
+
+#timer {
+  font-weight: bold;
+  color: #ff5722;
+}
+
+#progressText {
+  font-weight: 500;
+  color: #6f42c1;
+}
+
+#nextBtn,
+#restartBtn {
+  border-radius: 10px;
+}
+
+.modal-content {
+  border-radius: 12px;
+}
+
+.modal-header {
+  background: linear-gradient(90deg, #6f42c1, #00bcd4);
+  color: white;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #6f42c1, #00bcd4);
+}
